@@ -69,20 +69,6 @@ Steam 库 → 右键 **Volcano Princess** → 管理 → 浏览本地文件。
 | **其它修改** | 烦恼 / 伤病 / 妈妈剧情 / 姓名 / 生日 / 血型 / 教程 / 语言 |
 | **★游戏规则** | 实时修改游戏常量：时间/行动/经济/战斗/好感/课程/天赋/马/骰子/心情/探索 — 共11类 |
 
-### 面板深度示例
-
-```
-主菜单 Page 1 → 女儿属性
-  → 体质 [详细]
-    → +100 / +1000 / -100 / -1000 / →0 / →500 / →9999 / →自定义值...
-      → 10 / 50 / 100 / 200 / 300 / 400 / 500 / 600 / 700 / 800 / 900 / 1000 / 2000 / 5000 / →更多...
-        → 8000 / 9999 / 15000 / 30000 / 50000 / 99999
-
-主菜单 Page 4 → ★游戏规则 → 战斗系统
-  → maxFightLevel = 10 / 20 / 29(原版) / 50 / 99
-  → teammateNum = 1 / 2 / 3(原版) / 5 / 10
-```
-
 ## 构建
 
 ```bash
@@ -95,19 +81,19 @@ dotnet build "MizuofCheatMod/MizuofCheatMod.csproj" --nologo
 
 ```
 MizuofCheatMod/
-├── MizuofCheatMod.cs        ← 入口（~30行）
+├── MizuofCheatMod.cs        ← 入口
 ├── ICheatSkill.cs            ← 技能接口
 ├── HarmonyPatches.cs         ← Harmony 补丁
 ├── CheatFunctions.cs         ← 游戏操作 API
 ├── Skills/                   ← 技能模块
 │   ├── OneClickSkill.cs
-│   ├── AttrSkill.cs          ← 女儿属性（含子子子面板）
-│   ├── GameConfigSkill.cs    ← ★游戏规则（炫技功能）
+│   ├── AttrSkill.cs          ← 女儿属性
+│   ├── GameConfigSkill.cs    ← 游戏规则
 │   └── RemainingSkills.cs    ← 其余11个技能
 ├── Utils/
-│   ├── ModMenu.cs            ← 菜单渲染引擎（5按钮分页）
+│   ├── ModMenu.cs            ← 菜单渲染引擎
 │   ├── SkillManager.cs       ← 技能注册/路由分发
-│   ├── GameReflect.cs        ← 反射封装（Gf/Sf/Inst）
+│   ├── GameReflect.cs        ← 反射封装
 │   └── ModConfig.cs          ← 全局开关状态
 └── bin/Debug/net472/
     └── MizuofCheatMod.dll    ← 编译产物
