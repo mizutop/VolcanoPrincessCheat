@@ -1,0 +1,9 @@
+D:\MyPoject\0602\MizuofCheatMod\obj\Debug\net472\MizuofCheatMod.csproj.AssemblyReference.cache
+D:\MyPoject\0602\MizuofCheatMod\obj\Debug\net472\MizuofCheatMod.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyPoject\0602\MizuofCheatMod\obj\Debug\net472\MizuofCheatMod.AssemblyInfoInputs.cache
+D:\MyPoject\0602\MizuofCheatMod\obj\Debug\net472\MizuofCheatMod.AssemblyInfo.cs
+D:\MyPoject\0602\MizuofCheatMod\obj\Debug\net472\MizuofCheatMod.csproj.CoreCompileInputs.cache
+D:\MyPoject\0602\MizuofCheatMod\bin\Debug\net472\MizuofCheatMod.dll
+D:\MyPoject\0602\MizuofCheatMod\bin\Debug\net472\MizuofCheatMod.pdb
+D:\MyPoject\0602\MizuofCheatMod\obj\Debug\net472\MizuofCheatMod.dll
+D:\MyPoject\0602\MizuofCheatMod\obj\Debug\net472\MizuofCheatMod.pdb
