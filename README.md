@@ -2,8 +2,8 @@
 
 火山的女儿 MelonLoader Mod — 游戏内修改面板，按 **F1** 打开。
 
-![menu screenshot](MizuofCheatMod/Image/0.png)
 ![menu screenshot](MizuofCheatMod/Image/2.png)
+![menu screenshot](MizuofCheatMod/Image/0.png)
 
 ## 安装方法
 
